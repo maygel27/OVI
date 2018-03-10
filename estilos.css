@@ -1,13 +1,14 @@
+h1 {
+
+	text-align: center;
+  
+}
+
 body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
   background: seagreen;
-}
-
-h1 {
-  text-align: center;
-  color: #fff;
 }
 
 .container {
@@ -21,8 +22,7 @@ h1 {
   line-height: 4;
   padding: 0 2em;
   margin: 1.5em;
-  color: #fff;
-  position: relative;
+    position: relative;
 }
 
 .item:before {
@@ -54,4 +54,9 @@ h1 {
 
 .tres:hover:before {
   left: 0;
+}
+div#header{
+	width: 10&%;
+	height: 200px;
+	background-color: red;
 }
