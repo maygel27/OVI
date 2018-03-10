@@ -1,0 +1,70 @@
+h1 {
+
+	text-align: center;
+  
+}
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  
+    
+}
+
+#contenedor{
+width: 900px;
+margin: auto;
+margin-top: 20px;
+margin-bottom: 20px;
+
+
+}
+
+header {
+
+height: 150px;
+background: #eee;
+}
+
+header h1{
+  font-size: 50px;
+  text-align: center;
+  line-height: 150px;
+}
+
+#contenido{
+
+
+
+}
+
+#toggle{
+
+  display: none;
+}
+
+#boton{
+display: block;
+width: 200px;
+height: 200px;
+background: #fff;
+line-height: 200px;
+text-align: center;
+font-size: 70px;
+border-radius: 50%;
+color: #777;
+cursor: pointer;
+box-shadow: 0 12px 30px rgba(0,0,0,7);
+
+
+}  
+
+#toggle:checked + #boton {
+background: #eee;
+box-shadow: inset 0 12px 35px rgba(0,0,0.5);
+color: rgba(0,255,0,0.7);
+}
+
