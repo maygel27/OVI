@@ -6,24 +6,65 @@
 
 /*estilos generales*/
 
+body{
+
+	background: #2f3640;
+
+}
+
+
+.container{
+
+width: 980px;
+margin:auto;
+margin-top: 60;
+background: url(img/fondo.jpg);
+}
+
 .button{
 
 	background: #7f8c8d;
 	color: #eee;
 	display: inline-block;
-	font-size: 1.25em;
-	margin: 20px;
-	padding: 10px 0pc;
+	font-size: 15px;
+	margin: 5px;
+	padding: 10px ;
 	text-align: center;
-	width: 200px;
 	text-decoration: none;
 	box-shadow: 0px	3px 0px #373c3c;
 }
 
+
+
 .button span{
 	margin-right: 10px
 }
-.button.blue{
+.button.encabezado{
+font-size: 50px;
+width: 950px;
+height: 100px;
+margin-top: 50px;
+background: #1ABC9C;
+
+}
+.button.opcion1{
+	font-size: 20px;
+	width: 250px;
+	height: 100px;
+	text-align: justify;
+	vertical-align: top;
+	margin: 100px;
+	padding: 10px;
+	background: #1ABC9C;
+	box-shadow: #76D7C4;
+}
+
+.button.opcion2{
+	font-size: 20px;
+	width: 200px;
+	height: 50px;
+
+
 	background: #3498db;
 	box-shadow:#2980b9;
 }
@@ -31,7 +72,36 @@
 	border-radius: 50px;
 }
 
+	
+	
+
 .button:hover{
 	box-shadow: 0px 0px 0px;
 	padding-top: 7px;
+}
+
+h1{
+	text-align: center;
+	color: white;
+}
+
+.footer{
+background: #1ABC9C;
+  
+  clear: both; 
+  width: 950px;
+  margin-top: 50px;
+
+}
+.footer{
+  font-size: 40px;
+   padding: 15px;
+}
+
+.footer a{
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+
 }
