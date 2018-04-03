@@ -1,19 +1,19 @@
 *{
 	margin: 0;
 	padding: 0;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
+	
 	box-sizing: border-box;
 }
 
 
 
-header{
+header nav{
 	width: 100%;
+
 }
 
 .navegacion{
-	width: 1000px;
+	width: 980px;
 	margin: 1px auto;
 	background: #fff;
 }
