@@ -1,5 +1,6 @@
 *{margin: 0; padding: 0;}
 
+
 body{
 	background: rgba(192,192,192,0.7);
 	display: flex;
@@ -10,7 +11,7 @@ body{
 }
 
 header{
-	background: rgba(87,136,192,0.7);
+	background: #F2B80D;
 	border-radius: 0.5em;
 	-webkit-border-radius:0.5em;
 	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
@@ -19,8 +20,8 @@ header{
 	padding: 1em;
 	width: 90%;
 	overflow:hidden;
-	margin-bottom: 20px;
-    font-family: "ALGERIAN";
+	margin-bottom: 10px;
+    font-family: "Franklin Gothic Heavy";
 	font-size: 25px;
 } 
 
@@ -28,7 +29,7 @@ header{
 	text-align: justify;
 }
 article{
-	background: rgba(20,20,20,0.6);
+	background: #808080;
 	border-radius: 0.5em;
 	-webkit-border-radius:0.5em;
 	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
@@ -38,12 +39,27 @@ article{
 	width: 90%;
 	overflow:hidden;
 	margin-bottom: 20px;
-	font-family: "Arial";
-	font-size: 16px;
+	font-family: "Franklin Gothic Book";
+	font-size: 18px;
 }
 
+.contenedor{
+	background-color: #808080;
+	border-radius: 0.5em;
+	-webkit-border-radius:0.5em;
+	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
+	color: #DDD;
+	margin: 1em auto;
+	padding: 1em;
+	width: 90%;
+	overflow:hidden;
+	margin-bottom: 20px;
+
+}
+
+
 section{
-	background: rgba(20,20,20,0.6);
+	background: #808080;
 	border-radius: 0.5em;
 	-webkit-border-radius:0.5em;
 	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
@@ -54,15 +70,23 @@ section{
 	height: 350px;
 	overflow:hidden;
 	margin-bottom: 20px;
-	font-family: "CASTELLAR";
+	font-family: "Franklin Gothic Heavy";
 	font-size: 16px;
 	float: left;
-	margin-left: 40px;
+	margin-left: 10px;
+	position: static;
 
 }
 
 .invitacion{
 	text-align: center;
+}
+
+.video{
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden
 }
 
 
@@ -75,7 +99,7 @@ section{
 }
 
 aside{
-	background: rgba(20,20,20,0.45);
+	background: #808080;
 	border-radius: 0.5em;
 	-webkit-border-radius:0.5em;
 	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
@@ -86,18 +110,19 @@ aside{
 	height: 350px;
 	overflow:hidden;
 	margin-bottom: 20px;
-	font-family: "Arial";
+	font-family: "Franklin Gothic Heavy";
 	font-size: 16px;
 	float: right;
-	margin-right: 40px;
+	margin-right: 10px;
 	text-align: center;
+	position: static;
 }
 
 .aside{
 	font-size: 18px;
 }
 footer{
-	background: rgba(87,136,192,0.5);
+	background: #F2B80D;
 	border-radius: 0.5em;
 	-webkit-border-radius:0.5em;
 	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
@@ -107,8 +132,9 @@ footer{
 	width: 90%;
 	overflow:hidden;
 	margin-bottom: 20px;
-	font-family: "Arial";
+	font-family: "Franklin Gothic Heavy";
 	font-size: 16px;
 	text-decoration: none;
 	clear: both;
 }
+
