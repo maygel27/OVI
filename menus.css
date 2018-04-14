@@ -68,60 +68,80 @@ header nav, #Titulo, #Autores1, #Autores2, #Yesenia, #Duber, #Maygel{
 	opacity: 1;
 }
 #Yesenia{
-	width: 480px;
-	height: 390px;
+	width: 980px;
+	height: 260px;
 	float: left;
-	border: 3px solid black;
 	display: inline-block;
 }
 #Infyesenia{
-	width: 180px;
-	height: auto;
+	width: 820px;
+	border: 15px;
+	height: 150px;
 	float: right;
 	display: inline-block;
-	background: #086A87;
+	background: #088A85;
+}
+#Juan{
+	width: 980px;
+	height: 260px;
+	float: right;
+	display: inline-block;
+}
+#imgjuan{
+	float: right;
+}
+#infjuan{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: left;
+	display: inline-block;
+	background: #088A85;
 }
 #Mayguel{
-	width: 480px;
-	height: 390px;
-	float: right;
-	border: 3px solid black;
+	width: 980px;
+	height: 260px;
+	float: left;
 	display: inline-block;
 }
 #infmayguel{
-	width: 270px;
-	height: auto;
+	width: 820px;
+	border: 15px;
+	height: 150px;
 	float: right;
 	display: inline-block;
-	background: #086A87;
-}
-#Angel{
-	width: 480px;
-	height: 390px;
-	background-origin: img/fondo.jpg;
-	float: right;
-	display: inline-block;
-	border: 3px solid black;
-}
-#Infangel{
-		width: 270px;
-		height: auto;
-		float: right;
-		display: inline-block;
-		background: #086A87;
+	background: #088A85;
 }
 #Duber{
-	margin-right: 10px;
-	width: 480px;
-	height: 390px;
+	width: 980px;
+	height: 260px;
 	float: left;
-	border: 3px solid black;
 	display: inline-block;
 }
+#imgduber{
+	float: right;
+}
 #Infduber{
-	width: 270px;
-	height: auto;
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: left;
+	display: inline-block;
+	background: #088A85;
+}
+#Angel{
+	width: 980px;
+	height: 260px;
+	display: inline-block;
+}
+#Infangel{
+	width: 820px;
+	border: 15px;
+	height: 150px;
 	float: right;
 	display: inline-block;
-	background: #086A87;
+	background: #088A85;
+}
+#imgangel{
+	float: left;
 }
