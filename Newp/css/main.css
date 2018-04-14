@@ -9,7 +9,7 @@ body{
 
 
 /*background: -webkit-linear-gradient(right, #D8D8D8, #838173);*/
-background: #FFF7E4;
+background: white;
 
 }
 
@@ -270,12 +270,12 @@ section h3{
 }
 
 #cajas .caja{
-  float:left;
+ float:left;
   text-align: center;
   width:30%;
   padding:10px;
 
-  
+
 }
 
 #cajas .caja img{
