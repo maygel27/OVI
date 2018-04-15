@@ -114,18 +114,19 @@
         });
       });
       if (this.options.navigation.active) {
-        prevButton = $("<a>", {
-          "class": "slidesjs-previous slidesjs-navigation",
-          href: "#",
-          title: "Previous",
-          text: "Previous"
-        }).appendTo($element);
         nextButton = $("<a>", {
           "class": "slidesjs-next slidesjs-navigation",
           href: "#",
-          title: "Next",
-          text: "Next"
+          title: "Siguiente",
+          text: "Siguiente"
         }).appendTo($element);
+        prevButton = $("<a>", {
+          "class": "slidesjs-previous slidesjs-navigation",
+          href: "#",
+          title: "Anterior",
+          text: "Anterior"
+        }).appendTo($element);
+        
       }
       $(".slidesjs-next", $element).click(function(e) {
         e.preventDefault();
