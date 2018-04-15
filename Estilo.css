@@ -1,93 +1,39 @@
-*{margin: 0; padding: 0;}
-
-
-body{
-	background: rgba(192,192,192,0.7);
-	display: flex;
-	min-height: 100vh;
-	flex-wrap: wrap;
-	margin-right:85px; 
-	margin-left:85px;
-}
-
-header{
-	background: #F2B80D;
-	border-radius: 0.5em;
-	-webkit-border-radius:0.5em;
-	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
-	color: #0c0bfe;
-	margin: 1em auto;
-	padding: 1em;
-	width: 90%;
-	overflow:hidden;
-	margin-bottom: 10px;
-    font-family: "Franklin Gothic Heavy";
-	font-size: 25px;
-} 
-
-.encabezado{
-	text-align: justify;
-}
-article{
-	background: #808080;
-	border-radius: 0.5em;
-	-webkit-border-radius:0.5em;
-	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
-	color: #DDD;
-	margin: 1em auto;
-	padding: 1em;
-	width: 90%;
-	overflow:hidden;
-	margin-bottom: 20px;
-	font-family: "Franklin Gothic Book";
-	font-size: 18px;
-}
-
-.contenedor{
-	background-color: #808080;
-	border-radius: 0.5em;
-	-webkit-border-radius:0.5em;
-	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
-	color: #DDD;
-	margin: 1em auto;
-	padding: 1em;
-	width: 90%;
-	overflow:hidden;
-	margin-bottom: 20px;
-
-}
-
-
-section{
-	background: #808080;
-	border-radius: 0.5em;
-	-webkit-border-radius:0.5em;
-	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
-	color: #DDD;
-	margin: 1em auto;
-	padding: 1em;
-	width: 52%;
-	height: 350px;
-	overflow:hidden;
-	margin-bottom: 20px;
-	font-family: "Franklin Gothic Heavy";
-	font-size: 16px;
-	float: left;
-	margin-left: 10px;
-	position: static;
-
-}
-
-.invitacion{
-	text-align: center;
-}
-
-.video{
+.logo{
 	width: 90%;
 	max-width: 1000px;
 	margin:auto;
 	overflow: hidden
 }
+
+.Relacionados ul{
+	color:#ffffff
+	font-size: 16px;
+	width: 90%;
+	max-width: 1000px;
+	margin:auto;
+	overflow: hidden;
+	text-align: justify;
+	width: 90%;
+	max-width: 1000px;
+	
+	overflow: hidden;
+	text-align: justify;
+	font-size: 16px;
+
+}
+
+h1{
+	 color: #FFF;
+	 text-align: center;
+}
+.Relacionados ul li a {
+	font-family: "Franklin Gothic Heavy";
+	font: bold 12px Arial;
+    color: #FFF;
+
+}
+
+
 
 
 .wrapper{
@@ -98,43 +44,8 @@ section{
 	text-align: justify;
 }
 
-aside{
-	background: #808080;
-	border-radius: 0.5em;
-	-webkit-border-radius:0.5em;
-	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
-	color: #DDD;
-	margin: 1em auto;
-	padding: 1em;
-	width: 30%;
-	height: 350px;
-	overflow:hidden;
-	margin-bottom: 20px;
-	font-family: "Franklin Gothic Heavy";
-	font-size: 16px;
-	float: right;
-	margin-right: 10px;
-	text-align: center;
-	position: static;
+#scroll{
+	overflow -x: auto;
+	width: 100%;
+	display: inline; 
 }
-
-.aside{
-	font-size: 18px;
-}
-footer{
-	background: #F2B80D;
-	border-radius: 0.5em;
-	-webkit-border-radius:0.5em;
-	box-shadow: rgba(0,0,0,0.6) 0px 5px 10px;
-	color: #00050a;
-	margin: 1em auto;
-	padding: 1em;
-	width: 90%;
-	overflow:hidden;
-	margin-bottom: 20px;
-	font-family: "Franklin Gothic Heavy";
-	font-size: 16px;
-	text-decoration: none;
-	clear: both;
-}
-
