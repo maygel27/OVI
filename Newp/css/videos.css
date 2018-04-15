@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+#cajas.video, video{
+	margin:10%;
+	
+	width: 	320px;
+	height:240px;
+
+}
+
+.slidesjs-pagination{
+
+	background: #005883;
+	list-style: none;
+	overflow: hidden;
+
+}
+.slidesjs-pagination li {
+	float:left;
+}
+.slidesjs-pagination li a {
+	display: block;
+	padding: 13.5px 20px ;
+	color: #fff;
+	text-decoration: none;
+}
+#video.slidesjs-container li a{
+	height:300px ;
+}
+
+.video .active {
+	background: #000;
+}
+.slidesjs-container{
+	height: 300px;
+}
+.slidesjs-navigation{
+	
+	background: #005883;
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	float: right;
+
+}
