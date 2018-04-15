@@ -297,6 +297,49 @@ section h3{
   width:90px;
 }
 
+
+
+.button1 {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #F2B80D;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
 aside{
 
     width: 185px;
@@ -331,7 +374,11 @@ background: #005883;
 box-shadow: 0px 5px #F2B80D;
 }
 
+footer .foto2{
 
+padding: 10px; margin: 10px; border: 2px solid black; float: right; width: 250px; 
+
+}
 /* CLic*/
 
 
