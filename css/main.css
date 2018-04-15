@@ -14,12 +14,21 @@ background: #FFE2D8;
 }
 
 header{
-    width: 100%;
-    height: 60px;
-    background: #f2b80d;
+  background:#005883;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#F2B80D 5px solid;
+}
+header #marca h1{
+  margin:0;
 }
 
-
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
 
 /*Barra social*/
 
@@ -106,7 +115,7 @@ margin-top: 60;
     height:33px;
     display: block;
     float: left;
-    padding: 17px 15px 0 70px;
+    padding: 1px 10px 0 7px;
     font: bold 12px Arial;
     color: #FFF;
     text-decoration: none;
@@ -114,7 +123,7 @@ margin-top: 60;
 } 
 
 .navegacion ul li a:hover {
-    color:#005883;
+    color:#F2B80D;
     background: url(img/navigation-hover.png) repeat-x left top;
 }
 
