@@ -43,7 +43,7 @@ aside{
 	width: 195px;
 	height: 300px;
 	margin-left: 5px;
-	background color:white; 
+	background color:white;
 }
 
 aside:nth-of-type(1){
@@ -115,8 +115,8 @@ background: #1ABC9C;
 	border-radius: 50px;
 }
 
-	
-	
+
+
 
 .button:hover{
 	box-shadow: 0px 0px 0px;
@@ -127,11 +127,18 @@ h1{
 	text-align: center;
 	color: white;
 }
-
+h2{
+	text-align: left;
+	color: white;
+}
+h4{
+	text-align: left;
+	color: #CFF;
+}
 .footer{
 background: #1ABC9C;
-  
-  clear: both; 
+
+  clear: both;
   width: 950px;
   margin-top: 50px;
 
@@ -146,5 +153,3 @@ background: #1ABC9C;
 	font-size: 15px;
 	text-decoration: none;
 }
-
-
