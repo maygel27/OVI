@@ -1,19 +1,23 @@
 *{
 	margin: 0;
 	padding: 0;
-	
+
 	box-sizing: border-box;
 }
 
 
 
-header nav{
+header nav, #Titulo, #Autores1, #Autores2, #Yesenia, #Duber, #Maygel{
 	width: 100%;
 
 }
 
 .navegacion{
+<<<<<<< HEAD
+	width: 1000px;
+=======
 	width: 980px;
+>>>>>>> ecea3a65dc3a622cd0fc4ccfbd05ada2c549b874
 	margin: 1px auto;
 	background: #fff;
 }
@@ -62,4 +66,82 @@ header nav{
 .menu li:hover .submenu{
 	visibility: visible;
 	opacity: 1;
+}
+#Yesenia{
+	width: 980px;
+	height: 260px;
+	float: left;
+	display: inline-block;
+}
+#Infyesenia{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: right;
+	display: inline-block;
+	background: #088A85;
+}
+#Juan{
+	width: 980px;
+	height: 260px;
+	float: right;
+	display: inline-block;
+}
+#imgjuan{
+	float: right;
+}
+#infjuan{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: left;
+	display: inline-block;
+	background: #088A85;
+}
+#Mayguel{
+	width: 980px;
+	height: 260px;
+	float: left;
+	display: inline-block;
+}
+#infmayguel{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: right;
+	display: inline-block;
+	background: #088A85;
+}
+#Duber{
+	width: 980px;
+	height: 260px;
+	float: left;
+	display: inline-block;
+}
+#imgduber{
+	float: right;
+}
+#Infduber{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: left;
+	display: inline-block;
+	background: #088A85;
+}
+#Angel{
+	width: 980px;
+	height: 260px;
+	display: inline-block;
+}
+#Infangel{
+	width: 820px;
+	border: 15px;
+	height: 150px;
+	float: right;
+	display: inline-block;
+	background: #088A85;
+}
+#imgangel{
+	float: left;
 }
